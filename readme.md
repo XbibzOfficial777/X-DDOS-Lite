@@ -1,142 +1,67 @@
-🌟 X-DDoS Tool (Beta) 🌟
-
-https://img.shields.io/badge/Version-2.0-blue https://img.shields.io/badge/License-MIT-green https://img.shields.io/badge/Status-Beta-orange
+# 🌟 X-DDoS Tool (Beta) 🌟
 
 <div align="center">
 
-✨ Advanced DDoS Tool
+**Alat Uji Stres DDoS Canggih & Multifungsi**
 
-Powerful and multi-functional DDoS testing tool with advanced features
-
-https://img.shields.io/badge/Python-3.7%2B-blue?logo=python https://img.shields.io/badge/Platform-Termux%2FVPS-success https://img.shields.io/badge/Maintained-Yes-green
+[![Versi](https://img.shields.io/badge/Version-2.0-blue)](https://github.com/XbibzOfficial777/X-DDoS-Lite)
+[![Lisensi](https://img.shields.io/badge/License-MIT-green)](https://github.com/XbibzOfficial777/X-DDoS-Lite/blob/main/LICENSE)
+[![Status](https://img.shields.io/badge/Status-Beta-orange)](https://github.com/XbibzOfficial777/X-DDoS-Lite)
+[![Python](https://img.shields.io/badge/Python-3.7%2B-blue?logo=python)](https://www.python.org/)
+[![Platform](https://img.shields.io/badge/Platform-Termux%2FVPS-success)](https://termux.dev/)
 
 </div>
 
-📋 Table of Contents
+---
 
-· 🎯 Key Features
-· ⚙️ System Requirements
-· 🚀 Installation
-· 📖 How to Use
-· 🛡️ Whitelist System
-· 🔧 Owner Menu
-· ⚠️ Disclaimer
-· 📜 License
-· 👥 Contact Developer
+### 📋 Daftar Isi
 
-🎯 Key Features
+- [🎯 Fitur Utama](#-fitur-utama)
+- [⚙️ Persyaratan Sistem](#️-persyaratan-sistem)
+- [🚀 Instalasi](#-instalasi)
+- [📖 Cara Penggunaan](#-cara-penggunaan)
+- [🛡️ Sistem Whitelist](#️-sistem-whitelist)
+- [🔧 Menu Pemilik](#-menu-pemilik)
+- [⚠️ Penafian (Disclaimer)](#️-penafian-disclaimer)
+- [📜 Lisensi](#-lisensi)
+- [👥 Kontak Pengembang](#-kontak-pengembang)
 
-· 🌐 Multi-Protocol Attacks: HTTP Flood, Slow Loris, UDP Flood, TCP SYN Flood, and Mixed Attack
-· 👑 Multi-Owner System: Support for multiple owners with full control
-· 🔐 IP Whitelist System: Real-time IP-based security verification
-· 🎨 Beautiful Interface: Colorful display with text animations
-· 📊 Device Info: Complete device and connection information
-· 🔄 Auto Update: Automatic update system from GitHub
-· 🛡️ Script Verification: Protection against unauthorized modifications
+---
 
-⚙️ System Requirements
+### 🎯 Fitur Utama
 
-· Python 3.7 or higher
-· RAM Minimum 8GB (recommended)
-· Stable internet connection
-· Termux (for Android) or VPS (recommended)
+-   🌐 **Serangan Multi-Protokol**: Mendukung HTTP Flood, Slow Loris, UDP Flood, TCP SYN Flood, dan Serangan Campuran.
+-   👑 **Sistem Multi-Pemilik**: Memungkinkan beberapa pemilik memiliki kontrol penuh atas skrip.
+-   🔐 **Whitelist IP Real-time**: Verifikasi keamanan berbasis IP secara langsung dari repositori GitHub.
+-   🎨 **Antarmuka Ramah Pengguna**: Tampilan penuh warna dengan animasi teks untuk pengalaman yang lebih baik.
+-   📊 **Info Perangkat**: Menampilkan informasi lengkap mengenai perangkat dan koneksi yang digunakan.
+-   🔄 **Pembaruan Otomatis**: Skrip dapat memperbarui dirinya sendiri secara otomatis dari GitHub.
+-   🛡️ **Verifikasi Integritas Skrip**: Melindungi dari modifikasi skrip yang tidak sah.
 
-🚀 Installation
+---
+
+### ⚙️ Persyaratan Sistem
+
+-   **Python**: Versi 3.7 atau yang lebih baru.
+-   **RAM**: Minimal 8 GB (Direkomendasikan).
+-   **Koneksi**: Internet yang stabil.
+-   **Platform**: Termux (Android) atau VPS (Direkomendasikan).
+
+---
+
+### 🚀 Instalasi
+
+Jalankan perintah berikut secara berurutan di terminal Anda:
 
 ```bash
-# Clone the repository
-git clone https://github.com/XbibzOfficial777/X-DDoS-Lite.git
+# Klona repositori dari GitHub
+git clone [https://github.com/XbibzOfficial777/X-DDoS-Lite.git](https://github.com/XbibzOfficial777/X-DDoS-Lite.git)
 
-# Navigate to directory
+# Masuk ke direktori proyek
 cd X-DDoS-Lite
 
-# Install dependencies
+# Instal semua dependensi yang dibutuhkan
 pip install -r requirements.txt
 
-# Run the script
+# Jalankan skrip utama
 python X-DDOS-Lite.py
-```
-
-📖 How to Use
-
-1. Run the script:
-   ```bash
-   python X-DDOS-Lite.py
-   ```
-2. Automatic IP verification will be performed
-3. Select attack method from main menu:
-   · [1] HTTP Flood
-   · [2] Slow Loris
-   · [3] UDP Flood
-   · [4] TCP SYN Flood
-   · [5] Mixed Attack
-4. Enter target details:
-   · Target URL or IP address
-   · Destination port
-   · Attack duration (in seconds)
-   · Number of threads
-5. Attack will run until duration ends or manually stopped
-
-🛡️ Whitelist System
-
-This script features an advanced whitelist system:
-
-· ✅ Real-time IP verification via GitHub
-· ✅ Multi-level access (Owner & User)
-· ✅ IP management through owner menu
-· ✅ Protection against unauthorized access
-
-🔧 Owner Menu
-
-Exclusive features for owners:
-
-· ➕ Add IP to Whitelist
-· 👀 View Whitelisted IPs
-· 👑 Add New Owner IP
-· 📋 View Owner IP List
-· ❌ Remove Owner IP
-· 🗑️ Remove User Whitelist IP
-
-⚠️ Disclaimer
-
-🚫 Important Legal Notice
-
-· This tool is designed for educational purposes and authorized testing only
-· Do not use for illegal activities
-· Comply with all applicable laws in your jurisdiction
-· Users assume all responsibility for their actions
-· The developers are not liable for any misuse
-
-📜 License
-
-MIT License - Copyright (c) 2025-2099 Xbibz Official
-
-Additional Terms:
-
-· Modification notice must be included
-· Attribution to original author (MR. Nexo444) is required
-· Prohibited for illegal purposes
-· No warranty - use at your own risk
-
-👥 Contact Developer
-
-· 📧 Telegram: t.me/XbibzOfficial
-· 📸 TikTok: @xbibzofficiall
-· 🌐 Website: xbibzofficial.netlify.app
-· 💻 GitHub: github.com/XbibzModder777
-
----
-
-<div align="center">
-
-🛡️ Use Wisely and Responsibly! 🛡️
-
-© 2025 Xbibz Official - All Rights Reserved
-
-https://img.shields.io/github/stars/XbibzOfficial777/X-DDoS-Lite?style=social https://img.shields.io/github/forks/XbibzOfficial777/X-DDoS-Lite?style=social https://img.shields.io/github/watchers/XbibzOfficial777/X-DDoS-Lite?style=social
-
-</div>
-
----
-
-Note: This tool is intended for educational purposes only. Always ensure you have proper authorization before testing any network or system.
